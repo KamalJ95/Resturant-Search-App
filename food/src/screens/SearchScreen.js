@@ -13,6 +13,7 @@ return  (
         onTermChange={(newTerm => setTerm(newTerm))}
         onTermSubmit={() => console.log('term was submitted')}/>
         <Text>{term}</Text>
+        
    
 </View>
 );};
